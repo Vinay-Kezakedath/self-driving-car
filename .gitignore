@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+output/
+docs/Architecture_and_Interview_Guide.pdf
+docs/build/
+requirements-docs.txt
+docs/img/
+models/*.pt
+data/real/*.mp4

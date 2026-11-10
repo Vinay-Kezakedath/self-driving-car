@@ -1,0 +1,8 @@
+# Core (lane detection, simulator, HUD)
+opencv-python>=4.8
+numpy>=1.24
+# Deep-learning object detection (YOLOv8). Install the CPU build of torch first
+# if you have no GPU:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.3
+# Tests
+pytest>=7

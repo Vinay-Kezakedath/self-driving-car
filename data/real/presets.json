@@ -1,0 +1,9 @@
+{
+  "_comment": "Per-video calibration. src_roi = trapezoid TL,TR,BR,BL in source pixels; roi_length_m = road length it covers; focal = camera focal length in px (distance estimates). Loaded automatically by main.py when --source is one of these files; CLI flags override.",
+  "project_video.mp4":        {"src_roi": [585, 460, 695, 460, 1127, 720, 203, 720], "roi_length_m": 30, "focal": 1000},
+  "challenge_video.mp4":      {"src_roi": [585, 480, 745, 480, 1000, 680, 290, 680], "roi_length_m": 30, "focal": 1000},
+  "challenge_p1.mp4":         {"src_roi": [575, 460, 695, 460, 1127, 720, 203, 720], "roi_length_m": 30, "focal": 1000},
+  "harder_challenge_video.mp4": {"src_roi": [470, 520, 725, 520, 990, 690, 230, 690], "roi_length_m": 20, "focal": 900},
+  "solid_white_right.mp4":    {"src_roi": [435, 340, 535, 340, 870, 540, 150, 540], "roi_length_m": 30, "focal": 750},
+  "solid_yellow_left.mp4":    {"src_roi": [440, 340, 530, 340, 770, 540, 150, 540], "roi_length_m": 30, "focal": 750}
+}
